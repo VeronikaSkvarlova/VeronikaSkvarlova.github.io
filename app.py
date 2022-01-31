@@ -11,7 +11,7 @@ app = Dash() # initializing dash app
 
 server = app.server
 
-trip_a = read_csv('tripadvisor_european_restaurants.csv', dtype={"restaurant_link": "string", "restaurant_name": "string",
+trip_a = read_csv('tripadvisor_european_restaurants_1.csv', dtype={"restaurant_link": "string", "restaurant_name": "string",
                                                                     "original_location": "string", "country": "string",
                                                                     "region": "string", "province": "string"})
 
